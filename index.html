@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MunchDash</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Here is our current Hot items, Grab it before it is gone</h1>
+    <div class="food-items-container" style="border: 10px;">
+        <div class="food-item">
+         <image src=images/BURGER.jpg alt="Burger" style="height:150px;" >
+            <h3>Classic Burger</h3>
+            <h5>ingredients</h5>
+            <p>beef</p>
+            <p>cheese</p>
+            <p>lettuce</p>
+            <p>tomato</p>
+            <p>onion</p>
+           
+            
+            <h3>$5.99</h3>
+            <button onclick="addToCart('Classic Burger', 5.99)">Add to Cart</button>
+        </div>
+        <div class="food-item">
+            <img src=images/pizza1.jpg alt="Pizza" style="height: 150px;">
+            <h3>Margherita Pizza</h3>
+            <h5>ingredients</h5>
+            <p> olive oil</p>
+            <p>tomato sauce</p>
+            <p>garlic</p>
+            <p>mozzarella</p>
+            <p>basil</p>
+            <h3>$8.99</h3>
+            <button onclick="addToCart('Margherita Pizza', 8.99)">Add to Cart</button>
+        </div>
+        <div class="food-item">
+            <img src=images/pizza2.jpg alt="Pizza" style="height: 150px;">
+            <h3>Munch Pizza</h3>
+            <h5>ingredients</h5>
+            <p> bacon</p>
+            <p>american cheese</p>
+            <p>pepperoni</p>
+            <p>green pepper</p>
+            <p>ham</p>
+            
+            <h3>$8.99</h3>
+            <button onclick="addToCart('Margherita Pizza', 8.99)">Add to Cart</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

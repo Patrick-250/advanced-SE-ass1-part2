@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+   background-color: #e2ce9e;
+}
+h1{
+    
+    font-size: 50px;
+    text-align: center;
+}
+.food-items-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
